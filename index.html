@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AddsManager | Home</title>
+    <meta http-equiv="refresh" content="20">
+</head>
+<body>
+{% for content in website_list %}
+    <div style="width: 1200px; padding: 10px; height: 2100px; margin-top: 50px;" id="top">
+        <h3><strong>HackThaTCORE</strong></h3>
+        <iframe width="1160" height="2000" src="https://hackthatcore.blogspot.com/" script="window.scrollBy(0, 3000); scrolldelay = setTimeout(200);" frameborder="5"  allowfullscreen></iframe>
+    </div>
+    <div id="bottom">
+        Bottom
+    </div>
+{% endfor %}
+
+<script>
+    window.scrollBy(0, 2400);
+</script>
+</body>
+</html>
